@@ -57,6 +57,7 @@
 		34BE705C1D4C0AF20010BB92 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE70291D4C0AF20010BB92 /* APSource.m */; };
 		34BE705D1D4C0AF20010BB92 /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE702A1D4C0AF20010BB92 /* APTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BE705E1D4C0AF20010BB92 /* APAddressBook-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE702C1D4C0AF20010BB92 /* APAddressBook-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BE70BF1D4C24130010BB92 /* APAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE70BE1D4C22720010BB92 /* APAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -325,6 +326,7 @@
 				34BE705B1D4C0AF20010BB92 /* APSource.h in Headers */,
 				34BE705D1D4C0AF20010BB92 /* APTypes.h in Headers */,
 				34BE702D1D4C0AF20010BB92 /* APContactBuilder.h in Headers */,
+				34BE70BF1D4C24130010BB92 /* APAddressBook-umbrella.h in Headers */,
 				34BE702F1D4C0AF20010BB92 /* APContactListBuilder.h in Headers */,
 				34BE704F1D4C0AF20010BB92 /* APJob.h in Headers */,
 				34BE70511D4C0AF20010BB92 /* APName.h in Headers */,
