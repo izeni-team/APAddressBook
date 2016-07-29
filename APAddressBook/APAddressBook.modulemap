@@ -1,0 +1,6 @@
+framework module XXXProject {
+    umbrella header "APAddressBook-umbrella.h"
+    
+    export *
+    module * { export * }
+}

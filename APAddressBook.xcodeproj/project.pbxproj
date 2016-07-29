@@ -112,6 +112,8 @@
 		34BE70291D4C0AF20010BB92 /* APSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSource.m; sourceTree = "<group>"; };
 		34BE702A1D4C0AF20010BB92 /* APTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTypes.h; sourceTree = "<group>"; };
 		34BE702C1D4C0AF20010BB92 /* APAddressBook-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-Bridging.h"; sourceTree = "<group>"; };
+		34BE70BD1D4C224B0010BB92 /* APAddressBook.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = APAddressBook.modulemap; sourceTree = "<group>"; };
+		34BE70BE1D4C22720010BB92 /* APAddressBook-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,8 @@
 				34BE6FEE1D4C0AF20010BB92 /* Core */,
 				34BE702B1D4C0AF20010BB92 /* Swift */,
 				34BE6EAD1D4C0AA70010BB92 /* Info.plist */,
+				34BE70BD1D4C224B0010BB92 /* APAddressBook.modulemap */,
+				34BE70BE1D4C22720010BB92 /* APAddressBook-umbrella.h */,
 			);
 			path = APAddressBook;
 			sourceTree = "<group>";
@@ -540,6 +544,7 @@
 				INFOPLIST_FILE = APAddressBook/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = APAddressBook/APAddressBook.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.afterplay.APAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -556,6 +561,7 @@
 				INFOPLIST_FILE = APAddressBook/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = APAddressBook/APAddressBook.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.afterplay.APAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
