@@ -12,7 +12,7 @@
 		34BE702E1D4C0AF20010BB92 /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE6FF21D4C0AF20010BB92 /* APContactBuilder.m */; };
 		34BE702F1D4C0AF20010BB92 /* APContactListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF31D4C0AF20010BB92 /* APContactListBuilder.h */; };
 		34BE70301D4C0AF20010BB92 /* APContactListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE6FF41D4C0AF20010BB92 /* APContactListBuilder.m */; };
-		34BE70311D4C0AF20010BB92 /* APDeprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF61D4C0AF20010BB92 /* APDeprecated.h */; };
+		34BE70311D4C0AF20010BB92 /* APDeprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF61D4C0AF20010BB92 /* APDeprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BE70321D4C0AF20010BB92 /* APContactDataExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF81D4C0AF20010BB92 /* APContactDataExtractor.h */; };
 		34BE70331D4C0AF20010BB92 /* APContactDataExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE6FF91D4C0AF20010BB92 /* APContactDataExtractor.m */; };
 		34BE70341D4C0AF20010BB92 /* APImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FFA1D4C0AF20010BB92 /* APImageExtractor.h */; };
