@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34BE6EAC1D4C0AA70010BB92 /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6EAB1D4C0AA70010BB92 /* APAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BE702D1D4C0AF20010BB92 /* APContactBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF11D4C0AF20010BB92 /* APContactBuilder.h */; };
 		34BE702E1D4C0AF20010BB92 /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE6FF21D4C0AF20010BB92 /* APContactBuilder.m */; };
 		34BE702F1D4C0AF20010BB92 /* APContactListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BE6FF31D4C0AF20010BB92 /* APContactListBuilder.h */; };
@@ -62,7 +61,6 @@
 
 /* Begin PBXFileReference section */
 		34BE6EA81D4C0AA70010BB92 /* APAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34BE6EAB1D4C0AA70010BB92 /* APAddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAddressBook.h; sourceTree = "<group>"; };
 		34BE6EAD1D4C0AA70010BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BE6FF11D4C0AF20010BB92 /* APContactBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APContactBuilder.h; sourceTree = "<group>"; };
 		34BE6FF21D4C0AF20010BB92 /* APContactBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APContactBuilder.m; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			children = (
 				34BE6FEE1D4C0AF20010BB92 /* Core */,
 				34BE702B1D4C0AF20010BB92 /* Swift */,
-				34BE6EAB1D4C0AA70010BB92 /* APAddressBook.h */,
 				34BE6EAD1D4C0AA70010BB92 /* Info.plist */,
 			);
 			path = APAddressBook;
@@ -338,7 +335,6 @@
 				34BE70381D4C0AF20010BB92 /* APAddressBookAccessRoutine.h in Headers */,
 				34BE70311D4C0AF20010BB92 /* APDeprecated.h in Headers */,
 				34BE70491D4C0AF20010BB92 /* APContact.h in Headers */,
-				34BE6EAC1D4C0AA70010BB92 /* APAddressBook.h in Headers */,
 				34BE703D1D4C0AF20010BB92 /* APAddressBookExternalChangeRoutine.h in Headers */,
 				34BE70321D4C0AF20010BB92 /* APContactDataExtractor.h in Headers */,
 				34BE703A1D4C0AF20010BB92 /* APAddressBookContactsRoutine.h in Headers */,
